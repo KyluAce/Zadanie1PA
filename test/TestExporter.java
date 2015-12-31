@@ -14,7 +14,7 @@ import org.junit.Assert;
 public class TestExporter
 {
     @Test
-    public void exporter()
+    public void TestExporter()
     {
         String textToBeExported = "Ala ma kota";
         Exporter exporter = new TextExporter(textToBeExported);

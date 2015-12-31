@@ -18,7 +18,7 @@ public class TextExporter implements Exporter
     {
         if (data == null) 
         {
-            return new TextData("¯\\(°_o)/¯");
+            return new TextData("");
         }
         
         Data eData = data;
