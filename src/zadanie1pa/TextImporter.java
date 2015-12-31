@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package zadanie1pa;
 
 /**
@@ -11,17 +7,15 @@ package zadanie1pa;
  */
 public class TextImporter implements Importer 
 {
-    
+    private Data data;
     @Override
-    public void IData(Data data) {
+    public void IData(Data data)
+    {
         this.data = data;
     }
     
-    public String iText() {
+    public String iText()
+    {
         return ((TextData)this.data).getText();
     }
-    
-    private Data data;
-    
-    
 }

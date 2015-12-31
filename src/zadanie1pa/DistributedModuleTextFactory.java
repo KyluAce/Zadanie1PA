@@ -1,27 +1,34 @@
 
 package zadanie1pa;
 
-public class DistributedModuleTextFactory implements DistributedModuleFactory {
-    
-    public DistributedModuleTextFactory(String text) {
+/**
+ *
+ * @author Krzysztof
+ */
+
+public class DistributedModuleTextFactory implements DistributedModuleFactory
+{
+    private String text;
+    public DistributedModuleTextFactory(String text)
+    {
         this.text = text;
     }
 
     @Override
-    public Data Data() {
+    public Data Data()
+    {
         return new TextData(text);
     }
 
     @Override
-    public Exporter Exporter() {
+    public Exporter Exporter()
+    {
         return new TextExporter(text);
     }
 
     @Override
-    public Importer Importer() {
+    public Importer Importer()
+    {
         return new TextImporter();
-    }
-    
-    private String text;
-    
+    }   
 }

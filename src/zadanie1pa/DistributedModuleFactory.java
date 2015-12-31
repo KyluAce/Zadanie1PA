@@ -1,6 +1,11 @@
 
 package zadanie1pa;
 
+/**
+ *
+ * @author Krzysztof
+ */
+
 public interface DistributedModuleFactory 
 {
     public Data Data();
