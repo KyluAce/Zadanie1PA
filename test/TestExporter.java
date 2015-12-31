@@ -6,11 +6,6 @@ import zadanie1pa.TextExporter;
 import org.junit.Test;
 import org.junit.Assert;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  *
@@ -19,7 +14,8 @@ import org.junit.Assert;
 public class TestExporter
 {
     @Test
-    public void exporter() {
+    public void exporter()
+    {
         String textToBeExported = "Ala ma kota";
         Exporter exporter = new TextExporter(textToBeExported);
         Data exportedData = exporter.EData();

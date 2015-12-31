@@ -23,7 +23,8 @@ import zadanie1pa.TextImporter;
 public class TestFactory 
 {
      @Test
-    public void factory() {
+    public void factory()
+    {
         final String textToForFactory = "Ali kot zjadl dolara";
         DistributedModuleFactory factory = new DistributedModuleTextFactory(textToForFactory);
         Data dataFromFactory = factory.Data();
