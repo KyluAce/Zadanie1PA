@@ -11,8 +11,8 @@ package zadanie1pa;
  */
 public class TextExporter implements Exporter {
 
-    public TextExporter(String textToBeExported){
-        this.data = new TextData(textToBeExported);
+    public TextExporter(String textExpo){
+        this.data = new TextData(textExpo);
     }
     
     @Override
